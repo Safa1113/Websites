@@ -1,0 +1,97 @@
+body {
+
+ background-color: black;
+
+
+}
+
+#container
+{
+ background-color: white;
+width: 900px;
+height: 800px;
+
+margin-left: auto;
+margin-right: auto;
+
+}
+#buttons {
+
+ background-color: grey;
+padding:1px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.welcome {
+color: white;
+}
+
+.p1 {
+
+float: right;
+}
+.p2 {
+
+position: relative;
+    left: 610px;
+}
+
+#title {
+
+color: black;
+text-align: center;
+border-style: solid;
+border-color: black;
+
+}
+
+#items {
+width: 900;
+
+}
+#item {
+width: 250px;
+height: 200px;
+border-style: solid;
+border-color: black;
+padding: 10px;
+margin: 10px;
+float: left;
+}
+
+p{
+margin: 10px;
+
+}
+
+#footer {
+ background-color: black;
+color: white;
+width: 900px;
+text-align: right;
+clear: both;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+#form {
+
+margin: 40px;
+color: grey;
+width: 350px;
+height: 200px;
+border-style: solid;
+border-color: black;
+padding: 10px;
+
+float: left;
+}
+
+.tx{
+
+float: right;
+
+}

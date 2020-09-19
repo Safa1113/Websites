@@ -1,0 +1,33 @@
+create table instructor (
+id int(11) auto_increment primary key,
+username text NOT NULL,
+pssword text NOT NULL,
+email text NOT NULL,
+name text NOT NULL,
+speciality text NOT NULL
+);
+
+create table course (
+id int(11) auto_increment primary key,
+instructor_id int(11) references instructor(id), 
+name text NOT NULL,
+field_ text NOT NULL,
+description text NOT NULL,
+book_cover longtext NOT NULL
+);
+
+create table student (
+id int(11) auto_increment primary key,
+username text NOT NULL,
+pssword text NOT NULL,
+email text NOT NULL,
+name text NOT NULL
+);
+
+
+create table enrolment (
+id int(11) auto_increment primary key,
+student_id int(11) references student(id), 
+course_id int(11) references course(id)
+);
+

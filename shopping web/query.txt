@@ -1,0 +1,47 @@
+create table users (
+id int(10) auto_increment primary key,
+Fname varchar(10),
+Lname varchar(10),
+uname varchar(10),
+psw varchar(10),
+Email varchar(10)
+
+);
+
+create table products (
+id char(10)  primary key,
+product varchar(20),
+color varchar(20),
+price int(11)
+
+);
+
+
+create table cart (
+u_id int(10) references users(id), 
+p_id char(10) references products(id),
+quantity int(11),
+primary key(u_id,p_id)
+
+);
+
+insert into products
+values ('s000000001','scarf','grey',25);
+insert into products
+values ('d000000001','dress','white',40);
+insert into products
+values ('h000000001','heel','grey',35);
+insert into products
+values ('b000000001','bag','black',20);
+insert into products
+values ('b000000002','bag','red',23);
+insert into products
+values ('sh00000001','shirt','red',24);
+insert into products
+values ('sh00000002','shirt','pink',31);
+insert into products
+values ('b000000003','bag','grey',23);
+insert into products
+values ('h000000002','heel','red',55);
+insert into products
+values ('bo00000001','boot','black',75);

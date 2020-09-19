@@ -1,0 +1,163 @@
+/* --------------------- Header ---------------------*/
+header{
+	width:100%;
+	height:100%;
+	text-align:center;
+    background-color:#CC9999;
+	margin:auto;
+}
+header img {
+	height:50%;
+	width:20%;
+	padding-top:0%;
+    padding-left:2 ;
+	padding-bottom:0%;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+nav{
+  display:inline-block;
+  width: 100%;
+  top:3em;
+  text-align:center;
+  border-bottom-style:outset;
+  background-color:#9F7A7A;
+  
+  
+}
+nav a {
+
+  font-family: sans-serif;
+  font-weight:32em;
+  font-size:1em;
+  margin:0em 3em;
+  color: black;
+  text-align: center;
+  padding:1em;
+  text-decoration: none;
+}
+/* --------------------- End Header -----------------*/
+
+
+/*---------------------- position of log out ---------------------------*/
+#out{
+  position: absolute;
+  right: 150px;
+  top: 100px;
+	
+}
+/*---------------------- position of log out ---------------------------*/
+
+
+/* --------------------- Footer ---------------------*/
+
+footer{
+	background-color:#CC9999;
+	position:relative;
+	bottom:0%;
+	left: 0%;
+	padding:0%;
+    width:100%;
+	height:auto;
+	border:0;
+	color:black;
+	margin:0%;
+	}
+	
+	
+	
+.footerR  {
+	display:inline-block;
+	width:30%;
+}
+
+.footerLinks{
+	display:inline-block;
+	width:30%;
+	float:left;
+	clear:left;
+    padding-top:0%;
+	position:relative;
+    padding-left:10%;
+}
+footer img{
+	height:3em;
+	width:3em;
+	padding-top:0%;
+
+}
+/* --------------------- End Footer ---------------------*/
+/* --------------------- Table ---------------------*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+table tr:nth-child(even) {
+  background-color: #B0ACAE;
+}
+table tr:nth-child(odd) {
+ background-color: #B0ACAE;
+   opacity: 0.7;
+
+}
+table th {
+  background-color: white;
+  color: black;
+}
+/* --------------------- End Table ---------------------*/
+
+
+html{
+		height:100%;
+		width:100%;
+}
+body{
+	font-family:"Times New Roman";
+	line-height:4em;
+	background-color:#ffe6e6;
+}
+ main{
+
+	background-color:#FFFFFF;
+	width:auto;
+	border-style:outset;
+	border: 2%;
+	padding:5%;
+    margin:1% 6% 6%;
+	background-image: url(images/img.JPG);
+
+
+
+}
+h1{
+	 text-align: center;
+}
+p{
+	text-align: center;
+}
+.button{
+display:center;
+}
+#button{
+  margin-left: 30%;
+  background-color:#B0ACAE;
+  height: 100px;
+  width:40%;
+  font-size: 25px;
+  opacity: 0.7;
+}
+#p1{
+	text-align: center;	
+}
+.info{
+	 text-align:left;
+	 line-height:2em;
+ }

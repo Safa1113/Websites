@@ -1,0 +1,10 @@
+create table cart (
+    u_id int(10) references users(id)
+    on update casecade on delete casecade,
+    p_id char(10) references products(id),
+    quantity int default 0,
+    primary key (u_id, p_id)
+    
+    );
+
+

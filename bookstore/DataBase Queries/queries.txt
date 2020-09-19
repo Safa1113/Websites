@@ -1,0 +1,35 @@
+create table users (
+Id int(10) auto_increment primary key,
+UserName varchar(10),
+Psw varchar(10),
+Email varchar(20) 
+
+);
+
+create table books (
+Id int(10)  auto_increment primary key,
+title varchar(200),
+writer varchar(100),
+pageno int(11),
+Price int(11)
+);
+
+
+create table cart (
+u_id int(10) references users(id), 
+p_id char(10) references products(id),
+primary key(u_id,p_id)
+);
+
+
+
+
+
+INSERT INTO books(title, writer, pageno, Price) VALUES ("The 48 Laws Of Power","Robert Greene",215,477)
+
+
+INSERT INTO books(title, writer, pageno, Price) VALUES ("Swamy's HandBook for CGS 2018 ","Muthuswamy",200,322)
+
+
+INSERT INTO books(title, writer, pageno, Price) VALUES ("Introduction To The Constitution Of India","Durga Das Basu ",115,120)
+
